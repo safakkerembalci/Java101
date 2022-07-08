@@ -17,6 +17,10 @@ public class LetterA {
                 }
             }
         }
+
+        letter [0][0] = "   ";
+        letter [0][3] = "   ";
+
         for (String[] row : letter) {
             for(String column: row){
                 System.out.print(column);
