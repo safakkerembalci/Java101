@@ -16,6 +16,10 @@ public class MinMaxNumber {
         while (i<=n){
             System.out.print("Enter number " + i + ": ");
             int number = input.nextInt();
+            if (i==1){
+                biggestNumber = number;
+                smallestNumber = number;
+            }
             if (number>biggestNumber){
                 biggestNumber = number;
             }else if (number<smallestNumber){
